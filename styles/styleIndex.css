@@ -1,0 +1,51 @@
+.header__inner {
+	height: 100px;
+}
+
+.wrapper__inner {
+	width: 300px;
+	margin: 100px auto 60px auto;
+	min-height: calc(100vh - 160px);
+}
+
+/*  User-Post Style  */
+.post {
+	margin-bottom: 40px;
+	box-shadow: 0 0 5px rgba(0,0,0,.15),
+				0 0 15px rgba(0,0,0,.25);
+}
+
+.post-image {
+	width: 100%;
+	display: block;
+}
+
+.post-subline {
+	display: flex;
+	list-style: none;
+	justify-content: flex-start;
+	background: #fff;
+	height: 50px;
+	padding: 0 10px;
+}
+
+.post-subline > li {
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+.post-subline-button {
+	border: none;
+	background: none;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+}
+
+.post-subline-button i {
+	font-size: 24px;
+}
+
+.hidden {
+	display: none;
+}

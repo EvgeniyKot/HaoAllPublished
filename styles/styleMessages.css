@@ -1,0 +1,35 @@
+.chat {
+	margin-bottom: 20px;
+	background: #fff;
+	padding: 10px;
+	position: relative;
+	height: 60px;
+	display: flex;
+}
+
+.chat-user {
+	background: orange;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border: 2px solid #000;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+.chat-date {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.chat-name {
+	font-weight: 500;
+}
+
+.chat-message {
+	font-weight: 300;
+	color: #5a5a5a;
+}

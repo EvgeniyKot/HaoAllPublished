@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>HaoAll | Пробная версия</title>
+	<script src="https://kit.fontawesome.com/64047efea4.js" crossorigin="anonymous"></script>
+	<!-- Подключения | Links -->
+	<link rel="stylesheet" href="styles/styleAll.css">
+	<link rel="stylesheet" href="styles/styleIndex.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="logo">HaoAll</div>
+				<div class="change-viewed">
+					<button data-target="subscribe-post" class="change-viewed-button">Subscribes</button>
+					<button data-target="best-post" class="change-viewed-button active">Best</button>
+					<button data-target="new-post" class="change-viewed-button">New</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="container">
+			<div class="wrapper__inner">
+
+				<div class="post subscribe-post best-post">
+					<img class="post-image" src="images/bridge-in-forest.jpg" alt="Bridge in Forest">
+					<ul class="post-subline">
+						<li class="post-subline-like">
+							<button class="post-subline-button"><i class="fas fa-heart"></i></button>
+							<span>879</span>
+						</li>
+						<li class="post-subline-comment">
+							<button class="post-subline-button"><i class="fas fa-comment"></i></button>
+							<span>203</span>
+						</li>
+						<li class="post-subline-repost">
+							<button class="post-subline-button"><i class="fas fa-share"></i></button>
+							<span>56</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="post new-post hidden">
+					<img class="post-image" src="images/city-under-clouds.jpg" alt="City under Clouds">
+					<ul class="post-subline">
+						<li class="post-subline-like">
+							<button class="post-subline-button"><i class="fas fa-heart"></i></button>
+							<span>23</span>
+						</li>
+						<li class="post-subline-comment">
+							<button class="post-subline-button"><i class="fas fa-comment"></i></button>
+							<span>2</span>
+						</li>
+						<li class="post-subline-repost">
+							<button class="post-subline-button"><i class="fas fa-share"></i></button>
+							<span>0</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="post best-post">
+					<img class="post-image" src="images/forest-smoke.jpg" alt="Forest Smoke">
+					<ul class="post-subline">
+						<li class="post-subline-like">
+							<button class="post-subline-button"><i class="fas fa-heart"></i></button>
+							<span>567</span>
+						</li>
+						<li class="post-subline-comment">
+							<button class="post-subline-button"><i class="fas fa-comment"></i></button>
+							<span>145</span>
+						</li>
+						<li class="post-subline-repost">
+							<button class="post-subline-button"><i class="fas fa-share"></i></button>
+							<span>48</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="post subscribe-post best-post">
+					<img class="post-image" src="images/person-on-road.jpg" alt="Person on Road">
+					<ul class="post-subline">
+						<li class="post-subline-like">
+							<button class="post-subline-button"><i class="fas fa-heart"></i></button>
+							<span>502</span>
+						</li>
+						<li class="post-subline-comment">
+							<button class="post-subline-button"><i class="fas fa-comment"></i></button>
+							<span>187</span>
+						</li>
+						<li class="post-subline-repost">
+							<button class="post-subline-button"><i class="fas fa-share"></i></button>
+							<span>42</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="post subscribe-post new-post hidden">
+					<img class="post-image" src="images/smoke-on-water.jpg" alt="Smoke on Water">
+					<ul class="post-subline">
+						<li class="post-subline-like">
+							<button class="post-subline-button"><i class="fas fa-heart"></i></button>
+							<span>256</span>
+						</li>
+						<li class="post-subline-comment">
+							<button class="post-subline-button"><i class="fas fa-comment"></i></button>
+							<span>87</span>
+						</li>
+						<li class="post-subline-repost">
+							<button class="post-subline-button"><i class="fas fa-share"></i></button>
+							<span>34</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="post new-post hidden">
+					<img class="post-image" src="images/sun-in-tree.jpg" alt="Sun in Tree">
+					<ul class="post-subline">
+						<li class="post-subline-like">
+							<button class="post-subline-button"><i class="fas fa-heart"></i></button>
+							<span>32</span>
+						</li>
+						<li class="post-subline-comment">
+							<button class="post-subline-button"><i class="fas fa-comment"></i></button>
+							<span>13</span>
+						</li>
+						<li class="post-subline-repost">
+							<button class="post-subline-button"><i class="fas fa-share"></i></button>
+							<span>4</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-menu">
+		<div class="container">
+			<div class="section-menu__inner">
+				<a class="section-menu-cell active" href="index.html"><i class="fas fa-bars"></i></a>
+				<a class="section-menu-cell" href="pages/notifications.html"><i class="fas fa-bell"></i></a>
+				<a class="section-menu-cell" href="#"><i class="fas fa-plus"></i></a>
+				<a class="section-menu-cell" href="pages/messages.html"><i class="fas fa-comment-alt"></i></a>
+				<a class="section-menu-cell" href="pages/account.html"><i class="fas fa-user"></i></a>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
